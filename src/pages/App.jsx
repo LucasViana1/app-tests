@@ -1,10 +1,6 @@
 import React from 'react';
-function App() {
-  return (
-    <div className="App">
-      React main app
-    </div>
-  );
-}
+import Main from './Main'
+
+const App = () => <Main />
 
 export default App;
